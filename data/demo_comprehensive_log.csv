@@ -1,1 +1,31 @@
-
+Task_ID,Parsed_Intent,Action_Taken,Base_Reward,Total_Reward,Timestamp,Confidence_Score,User_Feedback,Suggested_Correct_Action,Sigmoid_Confidence,Softmax_Confidence,Ranking_Confidence,Follow_up_Task,Follow_up_Accepted,Follow_up_Reward,Chosen_Q_Value,Mean_Other_Q_Values
+1-1,answer,open,2,3,2025-09-24T13:28:15,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+1-2,review,open,2,3,2025-09-24T13:28:16,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+1-3,pause,open,2,3,2025-09-24T13:28:17,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+1-4,restart,mute,2,2,2025-09-24T13:28:18,0.457,👍,,0.5,0.143,1.0,unmute (after mute),False,0,0.0,0.0
+1-5,take,open,2,3,2025-09-24T13:28:19,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+1-6,clear,close,2,3,2025-09-24T13:28:20,0.457,👍,,0.5,0.143,1.0,open (after close),True,1,0.0,0.0
+2-1,check,open,2,3,2025-09-24T13:28:31,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+2-2,play,close,2,3,2025-09-24T13:28:32,0.457,👍,,0.5,0.143,1.0,open (after close),True,1,0.0,0.0
+2-3,take,open,2,3,2025-09-24T13:28:33,0.62,👍,,0.881,0.169,1.0,close (after open),True,1,0.4,0.0
+2-4,stop,open,2,2,2025-09-24T13:28:34,0.457,👍,,0.5,0.143,1.0,close (after open),False,0,0.0,0.0
+2-5,play,close,-2,-2,2025-09-24T13:28:35,0.62,👎,play,0.881,0.169,1.0,,False,0,0.4,0.0
+2-6,check,unmute,2,2,2025-09-24T13:28:36,0.394,👍,,0.417,0.138,0.857,play (after unmute),False,0,0.0,0.06666666666666667
+3-1,send,open,2,3,2025-09-24T13:28:45,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+3-2,launch,set_dnd,2,3,2025-09-24T13:28:46,0.457,👍,,0.5,0.143,1.0,unmute (after set_dnd),True,1,0.0,0.0
+3-3,stop,open,2,2,2025-09-24T13:28:47,0.62,👍,,0.881,0.169,1.0,close (after open),False,0,0.4,0.0
+3-4,mute,open,2,2,2025-09-24T13:28:48,0.457,👍,,0.5,0.143,1.0,close (after open),False,0,0.0,0.0
+3-5,launch,set_dnd,2,2,2025-09-24T13:28:49,0.62,👍,,0.881,0.169,1.0,unmute (after set_dnd),False,0,0.4,0.0
+3-6,edit,open,2,3,2025-09-24T13:28:50,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+4-1,restart,mute,2,3,2025-09-24T13:28:58,0.62,👍,,0.881,0.169,1.0,unmute (after mute),True,1,0.4,0.0
+4-2,update,open,2,2,2025-09-24T13:28:59,0.457,👍,,0.5,0.143,1.0,close (after open),False,0,0.0,0.0
+4-3,check,open,2,2,2025-09-24T13:29:00,0.555,👍,,0.796,0.163,0.857,close (after open),False,0,0.4,0.07866666666666666
+4-4,launch,set_dnd,2,3,2025-09-24T13:29:01,0.632,👍,,0.881,0.198,1.0,unmute (after set_dnd),True,1,0.792,0.0
+4-5,pause,open,2,3,2025-09-24T13:29:02,0.62,👍,,0.881,0.169,1.0,close (after open),True,1,0.4,0.0
+4-6,stop,open,2,3,2025-09-24T13:29:03,0.632,👍,,0.881,0.198,1.0,close (after open),True,1,0.792,0.0
+5-1,update,open,2,3,2025-09-24T13:29:13,0.62,👍,,0.881,0.169,1.0,close (after open),True,1,0.4,0.0
+5-2,take,open,2,3,2025-09-24T13:29:14,0.632,👍,,0.881,0.198,1.0,close (after open),True,1,0.792,0.0
+5-3,open,open,2,2,2025-09-24T13:29:15,0.457,👍,,0.5,0.143,1.0,close (after open),False,0,0.0,0.0
+5-4,review,set_dnd,2,3,2025-09-24T13:29:16,0.394,👍,,0.417,0.138,0.857,unmute (after set_dnd),True,1,0.0,0.06666666666666667
+5-5,close,open,2,3,2025-09-24T13:29:17,0.457,👍,,0.5,0.143,1.0,close (after open),True,1,0.0,0.0
+5-6,stop,open,2,3,2025-09-24T13:29:18,0.645,👍,,0.881,0.231,1.0,close (after open),True,1,1.17616,0.0
